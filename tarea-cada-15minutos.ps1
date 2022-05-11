@@ -1,12 +1,11 @@
+
 #powerhell
 #NO ES LA MONITORIZACION DE LOS 15 MINUTOS
 mkdir c:\logs
 cd c:\logs
 
 type infoprocess.dat
-echo Hoy es: >> infoprocess.dat
 Get-date >> infoprocess.dat
-
 
 echo Procesos de más de 25MB de memoria virtual >> infoprocess.dat
 
@@ -23,4 +22,3 @@ Get-Process | Where-Object { $_.CPU -gt 5 } >> infoprocess.dat
 echo Procesos que se están ejecutando en el sistema. >> infoprocess.dat
 
 tasklist >> infoprocess.dat
-
