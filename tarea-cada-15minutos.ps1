@@ -4,6 +4,10 @@ mkdir c:\logs
 cd c:\logs
 
 type infoprocess.dat
+echo Hoy es: >> infoprocess.dat
+date >> infoprocess.dat
+echo Son las: >> infoprocess.dat
+time >> infoprocess.dat
 
 echo Procesos de más de 25MB de memoria virtual >> infoprocess.dat
 
