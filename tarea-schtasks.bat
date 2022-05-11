@@ -9,4 +9,4 @@ schtasks /create /sc daily /tn Security-Script /tr C:\Windows\SYSVOL\sysvol\hgen
 REM lo de sc significa que lo hace diariamente
 REM el tn simplemente es el nombre de la tarea,puedes poner el que sea
 REM tr es para poner la ruta de el script que quieres que se ejecute
-REM y por ultimo st es para programar la hora de inicio y et para la hora en que se acaba 
+REM y por ultimo st es para programar la hora de inicio (15:30) y et para la hora en que se acaba (22:00)
