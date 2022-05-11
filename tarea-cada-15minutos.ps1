@@ -1,4 +1,3 @@
-
 #powerhell
 #NO ES LA MONITORIZACION DE LOS 15 MINUTOS
 mkdir c:\logs
