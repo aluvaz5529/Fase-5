@@ -5,7 +5,7 @@ cd c:\logs
 
 type infoprocess.dat
 echo Hoy es: >> infoprocess.dat
-date >> infoprocess.dat
+Get-date >> infoprocess.dat
 echo Son las: >> infoprocess.dat
 time >> infoprocess.dat
 
